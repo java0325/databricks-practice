@@ -1,0 +1,10 @@
+{
+  "name": "databricks-practice",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0 <25"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

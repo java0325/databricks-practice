@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Databricks 자격 시험 연습</title>
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <link rel="stylesheet" href="css/app.css?v=7">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <p class="brand-kicker">Databricks</p>
+        <h1>자격 시험</h1>
+        <p class="brand-sub">연습할 시험을 고르세요</p>
+      </div>
+      <nav class="nav" aria-label="주요 메뉴">
+        <button type="button" data-action="go" data-view="home" class="nav-btn is-active">시험 선택</button>
+        <button type="button" data-action="go" data-view="dashboard" class="nav-btn">대시보드</button>
+        <button type="button" data-action="go" data-view="study" class="nav-btn">공부</button>
+        <button type="button" data-action="go" data-view="practice" class="nav-btn">연습</button>
+        <button type="button" data-action="go" data-view="exam" class="nav-btn">모의고사</button>
+        <button type="button" data-action="go" data-view="review" class="nav-btn">오답 복습</button>
+      </nav>
+      <div class="side-stats" id="side-stats"></div>
+      <p class="side-note">학습 합격선 70%. 공식 시험의 합격 점수는 공개되어 있지 않습니다.</p>
+    </aside>
+    <main id="main"></main>
+  </div>
+  <div class="lightbox" id="lightbox" hidden>
+    <button type="button" class="lightbox-close" data-action="close-zoom">닫기</button>
+    <img alt="확대한 코드 이미지" id="lightbox-img">
+  </div>
+  <script src="js/questions.js?v=7"></script>
+  <script src="js/de-questions.js?v=7"></script>
+  <script src="js/da-questions.js?v=7"></script>
+  <script src="js/explanations-ko.js?v=7"></script>
+  <script src="js/study-highlights.js?v=7"></script>
+  <script src="js/app.js?v=7"></script>
+</body>
+</html>
